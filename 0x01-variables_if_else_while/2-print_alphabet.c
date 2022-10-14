@@ -2,8 +2,9 @@
 
 /**
  * main-entry point
- * return: 0 if successful
- * */
+ *
+ * Return:0 if successful
+ */
 int main(void)
 {
 	char i;
