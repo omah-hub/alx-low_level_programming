@@ -1,33 +1,19 @@
 #include "main.h"
-
 /**
- * main - Entry point
+ * main - entry point
  *
- *Return: Always 0 (Success)
+ * Return: 0 if successful
  */
-
 int main(void)
-
 {
+	char *sh = "_putchar";
 
-		char *sh = "Holberton";
+	while (*sh)
+	{
+		_putchar(*sh);
+		sh++;
+	}
+	_putchar('\n');
 
-
-
-			while (*sh)
-
-					{
-
-								_putchar(*sh);
-
-										sh++;
-
-											}
-
-				_putchar('\n');
-
-
-
-					return (0);
-
+	return (0);
 }
