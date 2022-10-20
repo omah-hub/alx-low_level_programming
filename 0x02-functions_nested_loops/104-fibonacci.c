@@ -32,6 +32,7 @@ int main(void)
 				n2 = n2 / 1000000000;
 				boolean2 = 0;
 			}
+
 			fn2 = (n11 + n22);
 			fn = n1 +n2 + (fn2 / 1000000000);
 			printf(", %ld", fn);
