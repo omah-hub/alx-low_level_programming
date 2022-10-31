@@ -8,8 +8,8 @@
  *
  * PSEUDOCODE
  * Loop through "s" using "n" as limit
- * 		replace s[i] with "b"
- * 		return s
+ *		replace s[i] with "b"
+ *		return s
  */
 char *_memset(char *s, char b, unsigned int n)
 {
