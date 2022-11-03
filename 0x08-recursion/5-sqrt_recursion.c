@@ -23,7 +23,7 @@ int find_sqrt(int num, int root)
 }
 
 /**
- * _sqrt_recursiom - Returns the natral square root of a number
+ * _sqrt_recursion - Returns the natral square root of a number
  * @n: The number to return the suare root of
  *
  * Return: If n has a natural square root
