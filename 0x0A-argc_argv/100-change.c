@@ -10,7 +10,7 @@
  * Return: If the number of arguments is not exactly one - 1
  *	otherwise - 0
  */
-int main (int argc, char *argv[])
+int main(int argc, char *argv[])
 {
 	int cents, coins = 0;
 
