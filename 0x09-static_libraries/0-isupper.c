@@ -1,15 +1,20 @@
 #include "main.h"
+#include <stdio.h>
 
 /**
- * _isupper - check the code 
- *
- * @c: is an integer
- *
+ * _isupper - checks for uppercase
+ * @c: Variable text
  * Return: Always 0
  */
 
 int _isupper(int c)
 {
-
-	return (c >= 65 && c <= 90);
+	if (c >= 'A' && c <= 'Z')
+	{
+		return (1);
+	}
+	else
+	{
+		return (0);
+	}
 }
