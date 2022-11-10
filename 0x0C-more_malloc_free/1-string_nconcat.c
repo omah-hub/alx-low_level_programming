@@ -1,4 +1,4 @@
-#include <stdlib.h>
+#include <stdio.h>
 #include <stdlib.h>
 #include "main.h"
 /**
@@ -21,7 +21,7 @@ int _strlen(char *string)
  * @n: n bytes to concat from string 2
  * Return: pointer to concatenated string
  */
-char *string_nconcat(char *s1, s2, unsigned int n)
+char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
 	char *ptr;
 	int num, len, i, j;
