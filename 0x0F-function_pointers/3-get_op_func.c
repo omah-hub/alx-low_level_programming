@@ -19,7 +19,7 @@ int (*get_op_func(char *s)) (int, int)
 		{ NULL, NULL }
 	};
 	
-	int i = 0;
+	i = 0;
 
 	while (i < 5)
 	{
