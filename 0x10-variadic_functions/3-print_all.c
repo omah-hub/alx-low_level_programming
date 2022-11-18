@@ -43,7 +43,7 @@ void print_all(const char * const format, ...)
 				}
 				start = 1;
 				printf("%f", va_arg(list, double));
-				break
+				break;
 			case 's':
 					switch (start)
 					{
