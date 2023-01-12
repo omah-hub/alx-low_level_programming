@@ -5,7 +5,7 @@
  *
  * @head: struct
  *
- * Return: void 
+ * Return: void
  */
 
 void free_dlistint(dlistint_t *head)
