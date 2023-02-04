@@ -1,5 +1,4 @@
 #include "hash_tables.h"
-
 /**
  * hash_table_set - adds an element to the hash table.
  * @ht: hash table
@@ -47,9 +46,9 @@ new_node = create_new_node(key, value);
 if (new_node == NULL)
 	return (0);
 
-	new_node->next = ht->array[index];
-	ht->array[index] = new_node;
-	return (1);
+new_node->next = ht->array[index];
+ht->array[index] = new_node;
+return (1);
 }
 
 /**
