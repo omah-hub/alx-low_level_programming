@@ -10,7 +10,7 @@
  */
 int hash_table_set(hash_table_t *ht, const char *key, const char *value)
 {
-	
+
 hash_node_t *node;
 hash_node_t *new_node;
 unsigned long int index;
@@ -39,7 +39,7 @@ while (node != NULL)
 		free(node->value);
 		node->value = strdup(value);
 		return (1);
-	}				
+	}
 	node = node->next;
 }
 /*If key doesn't exist, create new node*/
